@@ -1,0 +1,152 @@
+
+  .pic{
+    margin-top: 70px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color:whitesmoke;
+    
+   
+  }
+
+.intro  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+    line-height: 0px;  
+}
+.intro > h1{
+    font-size: 96px;
+    color: white;
+}
+.intro > h2{
+    font-size: 30px;
+    color: white;
+}
+body{
+    background-color: #284272 ;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: ;
+    margin-top: 20px;
+  }
+  
+  .flex-container > button  {
+    background-color: rgb(255, 255, 255);
+    color:#315baa ;
+    width: 190px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    
+  }
+  .project{
+    margin-top: 0%;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+.project-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #284272;
+    justify-content:center;
+  }
+  
+  .project-flex-container > div {
+    background-color: #f1f1f1;
+    width: 220px;
+    height: 150px;
+    margin: 30px;
+    
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .grid-container{
+  display: grid;
+  grid-template-columns: 400px  600px ;
+  gap: 10px;
+  background-color: #284272;
+  justify-content: center;
+  }
+
+  .grid-container > div {
+    padding: 20px 0;
+    font-size: 30px;
+    
+  }
+  
+  .about{
+    text-indent: 30px;
+    margin-top: 0%;
+    font-size: 80px;
+    color: white;
+    text-align: left;
+
+  }
+  .grid-item1{
+    background-color: #D9D9D9;
+  }
+  .grid-item2{
+    color:white;
+    margin-top: 40px;
+    text-align: left;
+    text-indent: 20px;
+  }
+  .form{
+    /*padding-left: 100px;*/
+    margin-left: 100px;
+    width: 600px;
+   
+  }
+  .form > .mb-3 > #exampleFormControlInput1{
+    height: 50px;
+    font-size: 25px;
+    margin-bottom: 10px;
+   
+  }
+  .form > .mb-3 > textarea{
+    height: 200px;
+    
+  }
+  .contact{
+    text-indent: 95px;
+    margin-top: 0%;
+    font-size: 80px;
+    color: white;
+    text-align: left;
+    margin-bottom: 10px;
+
+  }
+  .btn-text-left{
+    text-align: right;
+    
+  }
+  .btn-text-left > button{
+   font-size: 20px;
+    
+  }
+  .icon {
+    padding:40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+   
+    color:white;
+   
+  }
+  .icon > svg{
+    height: 90px;
+    width:90px;
+  }
